@@ -1,28 +1,2 @@
-# LSPDFR-Agency-Backup-Change-Guide
-How to understand and change the police agency vehicles, uniforms, and names in LSPDFR for GTA V Single player
 
-## Requirements
-- LSPDFR
-- RagePluginHook
-- OpenIV
-
-## Changing Agency/Agency Vehicles
-Changing the Agency vehicles will only change the dynamically spawning vehicles and not the backup.
-
-1. Go to the GTA V root directory and open the lspdfr folder
-2. In the lspdfr folder, open the data folder
-3. To change the Agency name and vehicles, open **Agency.xml** with the "Edit to Notepad" or whatever else is preferred
-4. Now you can change the vehicles, uniforms, and agency to whatever you like
-
-You can repeat this process for the agency_eup.xml as well; found in the customs folder in GTAV/lspdfr/data/customs
-
-**IMPORTANT** Do not change the Scriptname as this is what is communicated on the backend
-
-
-
-## How to understand the code
-
-- Each agency is marked starting with <Agency> and ends at </Agency>
-
-- Each vehicle is marked starting with <Vehicles> and ends with </Vehicles>
 
